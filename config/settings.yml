@@ -1,0 +1,20 @@
+default: &default
+  app_url: "http://localhost:3000"
+  static_pages:
+    home: "http://localhost:3000"
+    help: "http://localhost:3000/help"
+    contact: "http://localhost:3000/contact"
+    about: "http://localhost:3000/about"
+    signup: "http://localhost:3000/signup"
+  outsideLink:
+    railsTutorial: "https://www.railstutorial.org"
+    railsTutorialHelp: "https://www.railstutorial.org/help"
+    railsTutorialBook: "https://www.railstutorial.org/book"
+    railsTutorialContact: "https://www.railstutorial.org/contact"
+    michaelHartl: "https://www.michaelhartl.com"
+    learnEnough: "https://www.learnenough.com"
+    railsNews: "https://news.railstutorial.org"
+    rubyOnRails: "https://rubyonrails.org"
+    screencastsTutorial: "https://screencasts.railstutorial.org"
+development:
+  <<: *default

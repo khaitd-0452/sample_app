@@ -1,0 +1,16 @@
+<footer class="footer">
+  <small>
+    <%= t(
+      "footer.credits.text",
+      railsTutorial: link_to(t("footer.credits.railsTutorial"), Settings.default.outsideLink.railsTutorial),
+      author: link_to(t("footer.credits.author"), Settings.default.outsideLink.michaelHartl)
+    ).html_safe %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("footer.links.about"), about_path %></li>
+      <li><%= link_to t("footer.links.contact"), contact_path %></li>
+      <li><%= link_to t("footer.links.news"), Settings.default.outsideLink.railsNews %></li>
+    </ul>
+  </nav>
+</footer>

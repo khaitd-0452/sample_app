@@ -1,0 +1,8 @@
+<% provide(:title, t("views.contact.title")) %>
+<h1><%= t("views.contact.title") %></h1>
+<p>
+  <%= t(
+    "views.contact.description",
+    contactPage: link_to(t("views.contact.links.contactPage"), Settings.default.outsideLink.railsTutorialContact)
+  ).html_safe %>
+</p>

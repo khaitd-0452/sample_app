@@ -1,0 +1,51 @@
+vi:
+  title:
+    default: "Hướng dẫn Ruby on Rails Sample App"
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    contact: "Liên hệ"
+    about: "Giới thiệu"
+    signup: "Đăng ký"
+  navigation:
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    login: "Đăng nhập"
+    english: "Tiếng Anh"
+  footer:
+    credits:
+      text: "Hướng dẫn %{railsTutorial} bởi %{author}."
+      railsTutorial: "Ruby on Rails Tutorial"
+      author: "Michael Hartl"
+    links:
+      about: "Giới thiệu"
+      contact: "Liên hệ"
+      news: "Tin tức"
+  views:
+    home:
+      title: "Trang chủ"
+      welcome_message: "Chào mừng đến với Sample App"
+      homePageDescription: "Đây là trang chủ của Sample App %{railsTutorial}."
+      links:
+        railsTutorial: "Hướng dẫn Ruby on Rails"
+        signUp: "Đăng ký ngay!"
+        rubyOnRails: "Ruby on Rails"
+    help:
+      title: "Trợ giúp"
+      description: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại %{railsHelpPage}. Để nhận trợ giúp về Sample App này, xem %{railsTutorialBook}."
+      links:
+        railsHelpPage: "Trang trợ giúp Rails Tutorial"
+        railsTutorialBook: "Hướng dẫn Ruby on Rails sách"
+    contact:
+      title: "Liên hệ"
+      description: "Liên hệ Hướng dẫn Ruby on Rails về Sample App tại %{contactPage}."
+      links:
+        contactPage: "trang liên hệ"
+    about:
+      title: "Giới thiệu"
+      description: "Hướng dẫn %{railsTutorial}, một phần của gia đình %{learnEnough}, là một %{bookLink} và %{screencastLink} để dạy phát triển web với %{rubyOnRails}. Đây là Sample App cho hướng dẫn này."
+      links:
+        railsTutorial: "Hướng dẫn Ruby on Rails"
+        learnEnough: "Learn Enough"
+        book: "sách"
+        screencast: "chuỗi video hướng dẫn"
+        rubyOnRails: "Ruby on Rails"

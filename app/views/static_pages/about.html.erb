@@ -1,0 +1,12 @@
+<% provide(:title, t("views.about.title")) %>
+<h1><%= t("views.about.title") %></h1>
+<p>
+  <%= t(
+    "views.about.description",
+    railsTutorial: link_to(t("views.about.links.railsTutorial"), Settings.default.outsideLink.railsTutorial),
+    learnEnough: link_to(t("views.about.links.learnEnough"), Settings.default.outsideLink.learnEnough),
+    bookLink: link_to(t("views.about.links.book"), Settings.default.outsideLink.railsTutorialBook),
+    screencastLink: link_to(t("views.about.links.screencast"),  Settings.default.outsideLink.screencastsTutorial),
+    rubyOnRails: link_to(t("views.about.links.rubyOnRails"), Settings.default.outsideLink.rubyOnRails)
+  ).html_safe %>
+</p>
