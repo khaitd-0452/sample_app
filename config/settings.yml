@@ -16,5 +16,13 @@ default: &default
     railsNews: "https://news.railstutorial.org"
     rubyOnRails: "https://rubyonrails.org"
     screencastsTutorial: "https://screencasts.railstutorial.org"
+  validate:
+    email:
+      format: "/\\A[\\w+\\-.]+@[a-z\\d\\-.]+\\.[a-z]+\\z/i"
+      maxLength: 255
+    name:
+      maxLength: 50
+    password:
+      minLength: 6
 development:
   <<: *default
