@@ -42,6 +42,11 @@ en:
     help: "Help"
     login: "Log in"
     vietnamese: "Vietnamese"
+    users: "Users"
+    account: "Account"
+    profile: "Profile"
+    settings: "Settings"
+    log_out: "Log out"
   footer:
     credits:
       text: "The %{railsTutorial} by %{author}."
@@ -84,6 +89,14 @@ en:
       title: "Sign up"
       create_account: "Create My Account"
       success_message: "Welcome to the Sample App!"
+    login:
+      title: "Log in"
+      login: "Log in"
+      new_user: "New user?"
+      sign_up: "Sign up now!"
+      password: "Password"
+      success_message: "Login successfully!"
+      error_message: "Invalid email/password combination"
     users:
       not_found: "User not found"
   activerecord:
