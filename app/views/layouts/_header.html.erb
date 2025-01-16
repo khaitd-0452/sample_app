@@ -1,0 +1,19 @@
+<header class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <%= link_to "sample app", root_path, id: "logo" %>
+    <nav>
+      <ul class="nav navbar-nav navbar-right">
+        <li><%= link_to t("navigation.home"), root_path %></li>
+        <li><%= link_to t("navigation.help"), help_path %></li>
+        <li><%= link_to t("navigation.login"), "#" %></li>
+        <li>
+          <% if I18n.locale == :vi %>
+            <%= link_to t("navigation.english"), locale: "en" %>
+          <% else %>
+            <%= link_to t("navigation.vietnamese"), locale: "vi" %>
+          <% end %>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

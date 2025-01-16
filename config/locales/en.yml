@@ -30,4 +30,53 @@
 # available at https://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  title:
+    default: "Ruby on Rails Tutorial Sample App"
+    home: "Home"
+    help: "Help"
+    contact: "Contact"
+    about: "About"
+    signup: "Sign up"
+  navigation:
+    home: "Home"
+    help: "Help"
+    login: "Log in"
+    vietnamese: "Vietnamese"
+  footer:
+    credits:
+      text: "The %{railsTutorial} by %{author}."
+      railsTutorial: "Ruby on Rails Tutorial"
+      author: "Michael Hartl"
+    links:
+      about: "About"
+      contact: "Contact"
+      news: "News"
+  views:
+    home:
+      title: "Home"
+      welcome_message: "Welcome to the Sample App"
+      homePageDescription: "This is the home page for the %{railsTutorial} sample application."
+      links:
+        railsTutorial: "Ruby on Rails Tutorial"
+        signUp: "Sign up now!"
+        rubyOnRails: "Ruby on Rails"
+    help:
+      title: "Help"
+      description: "Get help on the Ruby on Rails Tutorial at the %{railsHelpPage}. To get help on this sample app, see the %{railsTutorialBook}."
+      links:
+        railsHelpPage: "Rails Tutorial Help page"
+        railsTutorialBook: "Ruby on Rails Tutorial book"
+    contact:
+      title: "Contact"
+      description: "Contact the Ruby on Rails Tutorial about the sample app at the %{contactPage}."
+      links:
+        contactPage: "contact page"
+    about:
+      title: "About"
+      description: "The %{railsTutorial}, part of the %{learnEnough} family of tutorials, is a %{bookLink} and %{screencastLink} to teach web development with %{rubyOnRails}. This is the sample app for the tutorial."
+      links:
+        railsTutorial: "Ruby on Rails Tutorial"
+        learnEnough: "Learn Enough"
+        book: "book"
+        screencast: "screencast series"
+        rubyOnRails: "Ruby on Rails"
