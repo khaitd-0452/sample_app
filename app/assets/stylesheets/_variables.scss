@@ -2,3 +2,11 @@ $white-color: #fff;
 $gray-light: #777;
 $gray-medium-light: #eaeaea;
 $gray-darker: #222;
+$red-color:#FF0000;
+$border-color: #bbb;
+
+@mixin box_sizing {
+  -moz-box-sizing:    border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing:         border-box;
+}
