@@ -49,3 +49,25 @@ vi:
         book: "sách"
         screencast: "chuỗi video hướng dẫn"
         rubyOnRails: "Ruby on Rails"
+    signup:
+      title: "Đăng ký"
+      create_account: "Tạo tài khoản của tôi"
+      success_message: "Chào mừng đến với Sample App!"
+    users:
+      not_found: "Người dùng không tồn tại"
+  activerecord:
+    models:
+      user: "Người dùng"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
+    errors:
+      messages:
+        blank: "Vui lòng nhập đầy đủ thông tin"
+        invalid: "không hợp lệ"
+        too_short: "Mật khẩu ít nhất là %{count} ký tự"
+  alert:
+    form_contains_error: "Biểu mẫu có %{count} lỗi"

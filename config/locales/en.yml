@@ -80,3 +80,25 @@ en:
         book: "book"
         screencast: "screencast series"
         rubyOnRails: "Ruby on Rails"
+    signup:
+      title: "Sign up"
+      create_account: "Create My Account"
+      success_message: "Welcome to the Sample App!"
+    users:
+      not_found: "User not found"
+  activerecord:
+    models:
+      user: "User"
+    attributes:
+      user:
+        name: "Name"
+        email: "Email"
+        password: "Password"
+        password_confirmation: "Password confirmation"
+    errors:
+      messages:
+      blank: "can't be blank"
+      invalid: "is invalid"
+      too_short: "Password must be at least %{count} characters long"
+  alert:
+    form_contains_error: "The form contains %{count} error"

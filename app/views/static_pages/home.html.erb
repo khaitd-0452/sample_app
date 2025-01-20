@@ -4,10 +4,10 @@
   <h2>
     <%= t(
       "views.home.homePageDescription",
-      railsTutorial: link_to(t("views.home.links.railsTutorial"), Settings.default.outsideLink.railsTutorial)
+      railsTutorial: link_to(t("views.home.links.railsTutorial"),  Settings.default.outsideLink.railsTutorial)
     ).html_safe %>
   </h2>
-  <%= link_to t("views.home.links.signUp"), "#", class: "btn btn-lg btn-primary" %>
+  <%= link_to t("views.home.links.signUp"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
 
 <%= link_to image_tag("rails.svg", alt: t("views.home.links.rubyOnRails"), width: "200"),
