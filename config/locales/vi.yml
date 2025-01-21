@@ -11,6 +11,11 @@ vi:
     help: "Trợ giúp"
     login: "Đăng nhập"
     english: "Tiếng Anh"
+    users: "Người dùng"
+    account: "Tài khoản"
+    profile: "Hồ sơ"
+    settings: "Cài đặt"
+    log_out: "Đăng xuất"
   footer:
     credits:
       text: "Hướng dẫn %{railsTutorial} bởi %{author}."
@@ -53,6 +58,14 @@ vi:
       title: "Đăng ký"
       create_account: "Tạo tài khoản của tôi"
       success_message: "Chào mừng đến với Sample App!"
+    login:
+      title: "Đăng nhập"
+      login: "Đăng nhập"
+      new_user: "Bạn chưa có tài khoản?"
+      sign_up: "Tạo người dùng mới!"
+      password: "Mật khẩu"
+      success_message: "Đăng nhập thành công!"
+      error_message: "Tài khoản hoặc mật khẩu không chính xác"
     users:
       not_found: "Người dùng không tồn tại"
   activerecord:
