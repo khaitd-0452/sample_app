@@ -23,6 +23,6 @@ class SessionsController < ApplicationController
     log_in user
     params.dig(:session, :remember_me) == "1" ? remember(user) : forget(user)
     flash[:success] = t("views.login.success_message")
-    redirect_to user, status: :see_other
+    redirect_back_or user
   end
 end

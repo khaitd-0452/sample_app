@@ -67,8 +67,15 @@ vi:
       success_message: "Đăng nhập thành công!"
       error_message: "Tài khoản hoặc mật khẩu không chính xác"
       remember_me: "Ghi nhớ tôi trên thiết bị này"
-    users:
-      not_found: "Người dùng không tồn tại"
+    edit:
+        title: "Chỉnh sửa người dùng"
+        subtitle: "Cập nhật hồ sơ của bạn"
+        save_changes: "Lưu thay đổi"
+        change_avatar: "Thay đổi ảnh đại diện"
+    index:
+        title: "Tất cả người dùng"
+        subtitle: "Danh sách tất cả người dùng"
+        delete: "Xóa"
   activerecord:
     models:
       user: "Người dùng"
@@ -85,3 +92,13 @@ vi:
         too_short: "Mật khẩu ít nhất là %{count} ký tự"
   alert:
     form_contains_error: "Biểu mẫu có %{count} lỗi"
+    users:
+      not_found: "Người dùng không tồn tại"
+      please_log_in: "Vui lòng đăng nhập"
+      can_not_edit: "Bạn không thể chỉnh sửa tài khoản này"
+      update:
+        success_message: "Hồ sơ đã được cập nhật"
+      destroy:
+        success_message: "Người dùng đã bị xóa!"
+        fail_message: "Xóa thất bại!"
+        confirm_delete: "Bạn có chắc chắn?"

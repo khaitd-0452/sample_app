@@ -18,11 +18,15 @@ default: &default
     screencastsTutorial: "https://screencasts.railstutorial.org"
   validate:
     email:
-      format: "/\\A[\\w+\\-.]+@[a-z\\d\\-.]+\\.[a-z]+\\z/i"
+      format: "\\A[\\w+\\-.]+@[a-z\\d\\-.]+\\.[a-z]+\\z"
       maxLength: 255
     name:
       maxLength: 50
     password:
       minLength: 6
+  users_pagination:
+      per_page: 10
+  avatar:
+    size: 80
 development:
   <<: *default
