@@ -98,8 +98,15 @@ en:
       success_message: "Login successfully!"
       error_message: "Invalid email/password combination"
       remember_me: "Remember me on this device"
-    users:
-      not_found: "User not found"
+    edit:
+        title: "Edit user"
+        subtitle: "Update your profile"
+        save_changes: "Save changes"
+        change_avatar: "Change avatar"
+    index:
+        title: "All users"
+        subtitle: "Listing all users"
+        delete: "Delete"
   activerecord:
     models:
       user: "User"
@@ -116,3 +123,13 @@ en:
       too_short: "Password must be at least %{count} characters long"
   alert:
     form_contains_error: "The form contains %{count} error"
+    users:
+      not_found: "User not found"
+      please_log_in: "Please log in"
+      can_not_edit: "You cannot edit this account"
+      update:
+        success_message: "Profile updated"
+      destroy:
+        success_message: "User deleted!"
+        fail_message: "Delete fail!"
+        confirm_delete: "Are you sure?"

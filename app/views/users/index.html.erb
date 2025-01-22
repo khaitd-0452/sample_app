@@ -1,0 +1,7 @@
+<% provide(:title, t("views.index.title")) %>
+<h1><%= t("views.index.subtitle") %></h1>
+<%== pagy_bootstrap_nav @pagy %>
+  <ul class="users">
+    <%= render "user" %>
+  </ul>
+<%== pagy_bootstrap_nav @pagy %>
