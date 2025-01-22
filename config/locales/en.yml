@@ -97,6 +97,7 @@ en:
       password: "Password"
       success_message: "Login successfully!"
       error_message: "Invalid email/password combination"
+      remember_me: "Remember me on this device"
     users:
       not_found: "User not found"
   activerecord:
