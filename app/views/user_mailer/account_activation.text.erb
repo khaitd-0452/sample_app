@@ -1,0 +1,3 @@
+<%= t("views.user_mailer.account_activation.greeting", username: @user.name) %>
+<%= t("views.user_mailer.account_activation.body")%>
+<%= edit_account_activation_url(id: @user.activation_token, email: @user.email) %>
