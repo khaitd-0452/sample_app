@@ -1,5 +1,6 @@
 vi:
   title:
+    app: "Sample App"
     default: "Hướng dẫn Ruby on Rails Sample App"
     home: "Trang chủ"
     help: "Trợ giúp"
@@ -76,6 +77,12 @@ vi:
         title: "Tất cả người dùng"
         subtitle: "Danh sách tất cả người dùng"
         delete: "Xóa"
+    user_mailer:
+      account_activation:
+        subject: "Kích hoạt tài khoản"
+        greeting: "Xin chào %{username},"
+        body: "Chào mừng bạn đến với Sample App! Hãy nhấn vào link bên dưới để kích hoạt tài khoản của bạn:"
+        activate: "Kích hoạt tài khoản"
   activerecord:
     models:
       user: "Người dùng"
@@ -96,9 +103,14 @@ vi:
       not_found: "Người dùng không tồn tại"
       please_log_in: "Vui lòng đăng nhập"
       can_not_edit: "Bạn không thể chỉnh sửa tài khoản này"
+      account_not_activated: "Tài khoản của bản chưa được kích hoạt. Vui lòng kiểm tra email để kích hoạt tài khoản"
       update:
         success_message: "Hồ sơ đã được cập nhật"
       destroy:
         success_message: "Người dùng đã bị xóa!"
         fail_message: "Xóa thất bại!"
         confirm_delete: "Bạn có chắc chắn?"
+    mailer:
+      check_email: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản."
+      success_activation: "Tài khoản đã được kích hoạt!"
+      invalid_activation: "Link kích hoạt không hợp lệ"
