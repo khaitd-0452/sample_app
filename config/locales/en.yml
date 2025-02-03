@@ -99,6 +99,7 @@ en:
       success_message: "Login successfully!"
       error_message: "Invalid email/password combination"
       remember_me: "Remember me on this device"
+      forgot_password: "Forgot password?"
     edit:
         title: "Edit user"
         subtitle: "Update your profile"
@@ -108,12 +109,25 @@ en:
         title: "All users"
         subtitle: "Listing all users"
         delete: "Delete"
+    password_reset:
+      title: "Reset password"
+      password_confirmation: "Password confirmation"
+      submit: "Update Password"
+    forgot_password:
+      title: "Forgot password"
+      submit: "Submit"
     user_mailer:
       account_activation:
         subject: "Account activation"
         greeting: "Hi %{username},"
         body: "Welcome to the Sample App! Click on the link below to activate your account:"
         activate: "Activate"
+      password_reset:
+        subject: "Password reset"
+        text: "To reset your password click the link below:"
+        reset: "Reset password"
+        expire: "This link will expire in two hours."
+        not_request: "If you did not request a password reset, please ignore this email and your password will stay as it is."
   activerecord:
     models:
       user: "User"
@@ -135,6 +149,13 @@ en:
       please_log_in: "Please log in"
       can_not_edit: "You cannot edit this account"
       account_not_activated: "Account not activated. Check your email for the activation link."
+      password_reset:
+        email_sent: "Email sent with password reset instructions"
+        email_not_found: "Email address not found"
+        password_reset: "Password has been reset."
+        expired_link: "Password reset has expired."
+        user_not_found: "User not found"
+        user_not_activated: "User not activated"
       update:
         success_message: "Profile updated"
       destroy:
