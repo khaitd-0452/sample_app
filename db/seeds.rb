@@ -25,3 +25,10 @@ User.create!(name:  "Example User",
                activated: true,
                activated_at: Time.zone.now)
 end
+
+users = User.order(:created_at).take(6)
+
+30.times do |i|
+  content = "word_count #{i}"
+  users.each { |user| user.microposts.create!(content: content) }
+end
