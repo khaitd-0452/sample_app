@@ -35,6 +35,10 @@ vi:
         railsTutorial: "Hướng dẫn Ruby on Rails"
         signUp: "Đăng ký ngay!"
         rubyOnRails: "Ruby on Rails"
+      view_my_profile: "Xem hồ sơ của tôi"
+      userMicroposts: "Bài viết của người dùng"
+      micropost: "Bài viết"
+      micropost_title: "Số bài viết (%{count})"
     help:
       title: "Trợ giúp"
       description: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại %{railsHelpPage}. Để nhận trợ giúp về Sample App này, xem %{railsTutorialBook}."
@@ -85,6 +89,20 @@ vi:
     forgot_password:
       title: "Quên mật khẩu"
       submit: "Gửi"
+    microposts:
+      success_create_message: "Bài viết đã được tạo"
+      success_delete_message: "Bài viết đã được xóa"
+      fail_delete_message: "Xóa thất bại"
+      invalid: "Bài viết không hợp lệ"
+      image_format: "Vui lòng tải lên một tập tin ảnh"
+      image_size: "Kích thước ảnh không được vượt quá 5MB"
+      delete: "Xóa"
+      confirm_delete: "Bạn có chắc chắn?"
+      post: "Đăng bài"
+      form_placeholder: "Viết bài mới..."
+      posted_ago: "Đã đăng %{time} trước"
+    flash:
+      please_log_in: "Vui lòng đăng nhập"
     user_mailer:
       account_activation:
         subject: "Kích hoạt tài khoản"
@@ -135,3 +153,40 @@ vi:
       check_email: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản."
       success_activation: "Tài khoản đã được kích hoạt!"
       invalid_activation: "Link kích hoạt không hợp lệ"
+    upload:
+      image_size: "Kích thước tối đa của file là 5MB. Vui lòng chọn file có kích thước nhỏ hơn!"
+  datetime:
+    distance_in_words:
+      less_than_x_seconds:
+        one: "vài giây"
+        other: "vài giây"
+      x_seconds:
+        one: "1 giây"
+        other: "%{count} giây"
+      less_than_x_minutes:
+        one: "gần 1 phút"
+        other: "gần %{count} phút"
+      x_minutes:
+        one: "1 phút"
+        other: "%{count} phút"
+      about_x_hours:
+        one: "khoảng 1 giờ"
+        other: "khoảng %{count} giờ"
+      x_days:
+        one: "1 ngày"
+        other: "%{count} ngày"
+      about_x_months:
+        one: "khoảng 1 tháng"
+        other: "khoảng %{count} tháng"
+      x_months:
+        one: "1 tháng"
+        other: "%{count} tháng"
+      about_x_years:
+        one: "khoảng 1 năm"
+        other: "khoảng %{count} năm"
+      over_x_years:
+        one: "hơn 1 năm"
+        other: "hơn %{count} năm"
+      almost_x_years:
+        one: "gần 1 năm"
+        other: "gần %{count} năm"

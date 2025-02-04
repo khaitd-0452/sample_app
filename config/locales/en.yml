@@ -66,6 +66,10 @@ en:
         railsTutorial: "Ruby on Rails Tutorial"
         signUp: "Sign up now!"
         rubyOnRails: "Ruby on Rails"
+      view_my_profile: "View my profile"
+      userMicroposts: "User Microposts"
+      micropost: "Micropost"
+      micropost_title: "Microposts (%{count})"
     help:
       title: "Help"
       description: "Get help on the Ruby on Rails Tutorial at the %{railsHelpPage}. To get help on this sample app, see the %{railsTutorialBook}."
@@ -116,6 +120,20 @@ en:
     forgot_password:
       title: "Forgot password"
       submit: "Submit"
+    microposts:
+      success_create_message: "Micropost created!"
+      success_delete_message: "Micropost deleted"
+      fail_delete_message: "Delete failed"
+      invalid: "Invalid micropost"
+      image_format: "Please upload an image file"
+      image_size: "Image size should be less than 5MB"
+      delete: "Delete"
+      confirm_delete: "Are you sure?"
+      post: "Post"
+      form_placeholder: "Compose new micropost..."
+      posted_ago: "Posted %{time} ago"
+    flash:
+      please_log_in: "Please log in."
     user_mailer:
       account_activation:
         subject: "Account activation"
@@ -166,3 +184,5 @@ en:
       check_email: "Please check your email to activate your account."
       success_activation: "Account activated!"
       invalid_activation: "Invalid activation link"
+    upload:
+      image_size: "Maximum file size is 5MB. Please choose a smaller file!"

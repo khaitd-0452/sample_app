@@ -9,7 +9,10 @@ class UsersController < ApplicationController
                          limit: Settings.default.users_pagination.per_page)
   end
 
-  def show; end
+  def show
+    @pagy, @microposts = pagy(@user.microposts.newest,
+                              limit: Settings.default.micropost_page)
+  end
 
   def new
     @user = User.new
@@ -58,14 +61,6 @@ class UsersController < ApplicationController
 
     flash[:warning] = t "alert.users.not_found"
     redirect_to root_path
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t "alert.users.please_log_in"
-    redirect_to login_path
   end
 
   def correct_user

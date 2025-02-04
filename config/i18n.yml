@@ -1,0 +1,7 @@
+translations:
+  - file: app/javascript/locales/:locale.js
+    patterns:
+      - "*"
+      - "!*.activerecord"
+      - "!*.errors"
+      - "!*.number.nth"

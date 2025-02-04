@@ -27,8 +27,17 @@ default: &default
   users_pagination:
       per_page: 10
   avatar:
-    size: 80
+    size: 50
   password_reset:
     expired: 2
+  digit_140: 140
+  micropost_page: 10
+  image:
+    fileSize: 5
+    type:
+      - image/jpeg
+      - image/png
+      - image/gif
+    size: [500, 500]
 development:
   <<: *default
