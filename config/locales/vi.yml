@@ -39,6 +39,10 @@ vi:
       userMicroposts: "Bài viết của người dùng"
       micropost: "Bài viết"
       micropost_title: "Số bài viết (%{count})"
+      following: "Đang theo dõi"
+      followers: "Người theo dõi"
+      follow: "Theo dõi"
+      unfollow: "Bỏ theo dõi"
     help:
       title: "Trợ giúp"
       description: "Nhận trợ giúp về Hướng dẫn Ruby on Rails tại %{railsHelpPage}. Để nhận trợ giúp về Sample App này, xem %{railsTutorialBook}."

@@ -70,6 +70,10 @@ en:
       userMicroposts: "User Microposts"
       micropost: "Micropost"
       micropost_title: "Microposts (%{count})"
+      following: "Following"
+      followers: "Followers"
+      follow: "Follow"
+      unfollow: "Unfollow"
     help:
       title: "Help"
       description: "Get help on the Ruby on Rails Tutorial at the %{railsHelpPage}. To get help on this sample app, see the %{railsTutorialBook}."

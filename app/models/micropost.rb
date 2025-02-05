@@ -23,4 +23,5 @@ length: {maximum: Settings.default.digit_140}
               message: I18n.t("views.microposts.image_size")
             }
   scope :newest, ->{order created_at: :desc}
+  scope :relate_post, ->(user_ids){where user_id: user_ids}
 end
